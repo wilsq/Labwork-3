@@ -24,7 +24,7 @@ const Page: React.FC = () => {
   const [error, setError] = useState<string | null>(null);
 
   const fetchWeather = async (city: string) => {
-    const API_KEY = "515d8967bb01912cf33b8f7528826427";
+    const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`;
 
     try {
