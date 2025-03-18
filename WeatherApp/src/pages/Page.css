@@ -1,0 +1,17 @@
+.pageTitle {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.weather-card {
+  display: flex;
+  flex-direction: column; /* Asetetaan pystysuoraan */
+  align-items: center; /* Keskitetään sisältö */
+  justify-content: center; /* Keskitetään sisältö */
+  text-align: center; /* Tekstin keskittäminen */
+}
+
+.weather-info {
+  margin-bottom: 30px;
+  display: block;
+}
