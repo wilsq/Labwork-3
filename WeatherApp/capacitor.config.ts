@@ -1,9 +1,9 @@
-import type { CapacitorConfig } from '@capacitor/cli';
+import type { CapacitorConfig } from "@capacitor/cli";
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'WeatherApp',
-  webDir: 'dist'
+  appId: "com.example.weatherapp",
+  appName: "WeatherApp",
+  webDir: "build",
 };
 
 export default config;
